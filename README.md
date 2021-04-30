@@ -44,3 +44,32 @@ Tracked(Git이 알고 있는) 파일은 이미 스냅샷에 포함돼 있던 파
 도움이 되는 자료
 ---
 https://backlog.com/git-tutorial/kr/
+
+템플릿
+---
+```
+# <type>: <subject>
+##### Maximum length of subject is 50 ############## -> |
+# content
+######## Maximum length of content is 72 ########### -> |
+# issue track number (#number)
+# --- COMMIT END ---
+# <type> list
+#   feat    : New feature
+#   fix     : Fix bug
+#   refactor: Refactor code
+#   style   : Change style of code(white space, semicolon etc)
+#   test    : Add/Change/Delete test case
+#   docs    : Add/Change/Delete document
+#   build   : Change in build script
+#   ci      : Change in ci script
+#   chore   : etc
+# ------------------
+#     Capitalize the subject line
+#     Use imperitive mood in subject
+#     Do not use period at the end of subject
+#     Seperate subject and content with a blank line
+#     Use the body explain "what" and "why" vs "how"
+#     Use "-" when content contains multiline
+# ------------------
+```
