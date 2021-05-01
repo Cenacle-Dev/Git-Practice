@@ -41,6 +41,8 @@ Tracked(Git이 알고 있는) 파일은 이미 스냅샷에 포함돼 있던 파
 
 2. 팀장님께서 코드 리뷰 진행을 위해서 작업 내용 PR(Pull Request)을 보내달라고 한다. 어떻게 해야 할까?
 
+> 이미 생성되어있는 원격 자장소 코드를 가져오기 위해 git clone 명령어를 사용해보자
+
 도움이 되는 자료
 ---
 https://backlog.com/git-tutorial/kr/
